@@ -2,6 +2,7 @@
 /.git/
 /**/*.mp4
 /**/css/
+/**/image/
 /**/_backstage
 /**/package-lock.json
 /**/yarn.lock
