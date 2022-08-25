@@ -2,6 +2,15 @@
 @import "./variables";
 @import "./print";
 
+::placeholder {
+  color: #666;
+}
+
+::selection {
+  background-color: #312a75;
+  color: #fff;
+}
+
 body {
   font-family: $mainFont;
   font-size: $fontSize;
@@ -10,4 +19,19 @@ body {
   min-width: 320px;
   position: relative;
   overflow-x: hidden;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
 }
