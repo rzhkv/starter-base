@@ -1,0 +1,34 @@
+{
+  "name": "starter-base",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "svoosh",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "browserslist": [
+    "last 10 versions"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "bootstrap": "^5.2.0",
+    "browser-sync": "^2.27.10",
+    "cssnano": "^5.1.12",
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rsync": "0.0.9",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "postcss": "^8.4.14",
+    "sass": "^1.54.3"
+  }
+}

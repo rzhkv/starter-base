@@ -1,0 +1,33 @@
+// Import fonts
+@mixin font($fname, $fstyle, $fweight, $furl) {
+  @font-face {
+    font-family: $fname;
+    font-style: $fstyle;
+    font-weight: $fweight;
+    src: url($furl) format("woff2");
+  }
+}
+
+@include font("Montserrat", "normal", 400, "../../fonts/Montserrat/Montserrat-Regular.woff2");
+@include font("Montserrat", "normal", 300, "../../fonts/Montserrat/Montserrat-Light.woff2");
+@include font("Montserrat", "normal", 700, "../../fonts/Montserrat/Montserrat-Bold.woff2");
+@include font("Montserrat", "normal", 900, "../../fonts/Montserrat/Montserrat-Black.woff2");
+
+// Main variables
+$accent: #feab23;
+$textMain: #505050;
+$textDark: #333;
+$bgMain: #151515;
+$fontSize: 16px;
+$lineHeight: 1.5;
+$mainFont: 'Monserrat', Arial, sans-serif;
+
+// Bootstrap compatible gutter variable => $gutter
+$grid-gutter-width: 30px;
+$gutter: $grid-gutter-width;
+
+// Import bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints.scss';
+@import 'node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import 'node_modules/bootstrap/scss/_utilities.scss';

@@ -1,0 +1,13 @@
+@import "./fonts";
+@import "./variables";
+@import "./print";
+
+body {
+  font-family: $mainFont;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $textMain;
+  min-width: 320px;
+  position: relative;
+  overflow-x: hidden;
+}

@@ -1,0 +1,21 @@
+// Import general config
+@import './config/general';
+
+// Import UI components
+@import './components/UI/*';
+
+// Import other components
+@import './components/*';
+
+// Styles star here 🍀
+
+.main {
+  min-height: 100vh;
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $bgMain;
+  color: #fff;
+}
