@@ -1,0 +1,22 @@
+/// Миксин для определения размера
+/// @author Kitty Giraudel
+/// @param {Length} $width
+/// @param {Length} $height
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+/// Миксин для импорта шрифтов
+/// @param {String} $fname
+/// @param {String} $fstyle
+/// @param {String} $fweight
+/// @param {String} $furl
+@mixin font($fname, $fstyle, $fweight, $furl) {
+  @font-face {
+    font-family: $fname;
+    font-style: $fstyle;
+    font-weight: $fweight;
+    src: url($furl) format('woff2');
+  }
+}

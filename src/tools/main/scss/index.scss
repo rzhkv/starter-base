@@ -1,26 +1,19 @@
-// Import general config
-@import './config/general';
+/**
+ * Если в сборщике присутствует плагин sass-glob - допускается испорт из папок.
+ * Все файлы в следующем порядке:
+ 1. abstracts
+ 2. vendors
+ 3. base
+ 4. layout
+ 5. components
+ 6. pages
+ 7. themes
+ */
 
-// Import UI components
-@import './components/UI/*';
-
-// Import other components
-@import './components/*';
-
-// Styles star here 🍀
-
-.main {
-  min-height: 100vh;
-  padding: 3rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  background-color: $bgMain;
-  color: #fff;
-}
-
-.paragraph {
-  font-size: 1.25rem;
-  margin: 1.25rem 0;
-}
+@import "abstracts/*";
+@import "vendors/*";
+@import "base/*";
+@import "layout/*";
+@import "components/*";
+@import "pages/*";
+@import "themes/*";

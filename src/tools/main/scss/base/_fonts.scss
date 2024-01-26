@@ -1,0 +1,31 @@
+@include font(
+  'Manrope',
+  'normal',
+  300,
+  '/tools/sm-remont-school/fonts/Manrope/Manrope-Light.woff2'
+);
+
+@include font(
+  'Manrope',
+  'normal',
+  400,
+  '/tools/sm-remont-school/fonts/Manrope/Manrope-Regular.woff2'
+);
+
+@include font(
+  'Manrope',
+  'normal',
+  500,
+  '/tools/sm-remont-school/fonts/Manrope/Manrope-Medium.woff2'
+);
+
+@include font('Manrope', 'normal', 700, '/tools/sm-remont-school/fonts/Manrope/Manrope-Bold.woff2');
+
+@include font(
+  'Manrope',
+  'normal',
+  800,
+  '/tools/sm-remont-school/fonts/Manrope/Manrope-ExtraBold.woff2'
+);
+
+
